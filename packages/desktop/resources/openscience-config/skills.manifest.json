@@ -93,6 +93,97 @@
       "repo": "Yuan1z0825/nature-skills",
       "path": "skills/nature-reviewer",
       "localCandidates": ["../nature-skills"]
+    },
+    {
+      "type": "external",
+      "name": "comsol-sim",
+      "repo": "svd-ai-lab/sim-plugin-comsol",
+      "path": "src/sim_plugin_comsol/_skills/comsol",
+      "localCandidates": ["../sim-plugin-comsol"]
+    },
+    {
+      "type": "external",
+      "name": "autodeskfusion",
+      "repo": "svd-ai-lab/sim-plugin-autodeskfusion",
+      "path": "src/sim_plugin_autodeskfusion/_skills/autodeskfusion",
+      "localCandidates": ["../sim-plugin-autodeskfusion"]
+    },
+    {
+      "type": "external",
+      "name": "abaqus-sim",
+      "repo": "svd-ai-lab/sim-plugin-abaqus",
+      "path": "src/sim_plugin_abaqus/_skills/abaqus",
+      "localCandidates": ["../sim-plugin-abaqus"]
+    },
+    {
+      "type": "external",
+      "name": "fluent-sim",
+      "repo": "svd-ai-lab/sim-plugin-fluent",
+      "path": "src/sim_plugin_fluent/_skills/fluent",
+      "localCandidates": ["../sim-plugin-fluent"]
+    },
+    {
+      "type": "external",
+      "name": "workbench-sim",
+      "repo": "svd-ai-lab/sim-plugin-workbench",
+      "path": "src/sim_plugin_workbench/_skills/workbench",
+      "localCandidates": ["../sim-plugin-workbench"]
+    },
+    {
+      "type": "external",
+      "name": "mechanical-sim",
+      "repo": "svd-ai-lab/sim-plugin-mechanical",
+      "path": "src/sim_plugin_mechanical/_skills/mechanical",
+      "localCandidates": ["../sim-plugin-mechanical"]
+    },
+    {
+      "type": "external",
+      "name": "flotherm-sim",
+      "repo": "svd-ai-lab/sim-plugin-flotherm",
+      "path": "src/sim_plugin_flotherm/_skills/flotherm",
+      "localCandidates": ["../sim-plugin-flotherm"]
+    },
+    {
+      "type": "external",
+      "name": "starccm-sim",
+      "repo": "svd-ai-lab/sim-plugin-starccm",
+      "path": "src/sim_plugin_starccm/_skills/starccm",
+      "localCandidates": ["../sim-plugin-starccm"]
+    },
+    {
+      "type": "external",
+      "name": "hfss",
+      "repo": "svd-ai-lab/sim-plugin-hfss",
+      "path": "src/sim_plugin_hfss/_skills/hfss",
+      "localCandidates": ["../sim-plugin-hfss"]
+    },
+    {
+      "type": "external",
+      "name": "hypermesh-sim",
+      "repo": "svd-ai-lab/sim-plugin-hypermesh",
+      "path": "src/sim_plugin_hypermesh/_skills/hypermesh",
+      "localCandidates": ["../sim-plugin-hypermesh"]
+    },
+    {
+      "type": "external",
+      "name": "matlab-sim",
+      "repo": "svd-ai-lab/sim-plugin-matlab",
+      "path": "src/sim_plugin_matlab/_skills/matlab",
+      "localCandidates": ["../sim-plugin-matlab"]
+    },
+    {
+      "type": "external",
+      "name": "stata-sim",
+      "repo": "svd-ai-lab/sim-plugin-stata",
+      "path": "src/sim_plugin_stata/_skills/stata",
+      "localCandidates": ["../sim-plugin-stata"]
+    },
+    {
+      "type": "external",
+      "name": "rhino",
+      "repo": "svd-ai-lab/sim-plugin-rhino",
+      "path": "skills/rhino",
+      "localCandidates": ["../sim-plugin-rhino"]
     }
   ]
 }

@@ -96,6 +96,110 @@
       "commit": "0bb3a646986ddcb0a69513d19c0219eb238ebc07",
       "path": "skills/nature-reviewer",
       "skillMdSha256": "ae86ec1c6289e84229b25b6c9c211a16249268a344c1c807f7099a0ba2bf081d"
+    },
+    {
+      "type": "external",
+      "name": "comsol-sim",
+      "repo": "svd-ai-lab/sim-plugin-comsol",
+      "commit": "cd8c083e12662bc77e5f750f247a13e938536c83",
+      "path": "src/sim_plugin_comsol/_skills/comsol",
+      "skillMdSha256": "6ed2708b25e5c09e26af84fa0f880acb4680d45d52e9022c60492926f41b37d7"
+    },
+    {
+      "type": "external",
+      "name": "autodeskfusion",
+      "repo": "svd-ai-lab/sim-plugin-autodeskfusion",
+      "commit": "9cda7e8905a251c395c9f4312622231993f12e3a",
+      "path": "src/sim_plugin_autodeskfusion/_skills/autodeskfusion",
+      "skillMdSha256": "c3b96ab7b53bfb2276618bc353aa201ec04a463bd9cd3f67bb8317a6b0fef05d"
+    },
+    {
+      "type": "external",
+      "name": "abaqus-sim",
+      "repo": "svd-ai-lab/sim-plugin-abaqus",
+      "commit": "4c7d91def52147f71cc531db6d813cc61ee5ecbc",
+      "path": "src/sim_plugin_abaqus/_skills/abaqus",
+      "skillMdSha256": "50161651834e7af7e8ca7a5582119097979d607118c3cc8b6eb7d5fec0f3e0d4"
+    },
+    {
+      "type": "external",
+      "name": "fluent-sim",
+      "repo": "svd-ai-lab/sim-plugin-fluent",
+      "commit": "2b0fb245f594fff5cc9542c64a17642d73c8ecc5",
+      "path": "src/sim_plugin_fluent/_skills/fluent",
+      "skillMdSha256": "fc47226d2fedd8e0a7fe5b93af5372c58f2d3338c4eb4f3e6e929eec43b95bed"
+    },
+    {
+      "type": "external",
+      "name": "workbench-sim",
+      "repo": "svd-ai-lab/sim-plugin-workbench",
+      "commit": "0b39e6248594a0448630db066f855f5788e48714",
+      "path": "src/sim_plugin_workbench/_skills/workbench",
+      "skillMdSha256": "59066eceb45733dd1aeeb544c22a17ec79a39c6f603214e6bce7cbc45c58691d"
+    },
+    {
+      "type": "external",
+      "name": "mechanical-sim",
+      "repo": "svd-ai-lab/sim-plugin-mechanical",
+      "commit": "0ebb41b564e5845b2d2e03515cb4d9c43b4e8748",
+      "path": "src/sim_plugin_mechanical/_skills/mechanical",
+      "skillMdSha256": "8d050555bb04a224ab14881fe021d95d10d268baf4909996794242229eb7a7db"
+    },
+    {
+      "type": "external",
+      "name": "flotherm-sim",
+      "repo": "svd-ai-lab/sim-plugin-flotherm",
+      "commit": "49081e6dba4fca836bc8995fac34ffa4bac1ce65",
+      "path": "src/sim_plugin_flotherm/_skills/flotherm",
+      "skillMdSha256": "fdd31ea00647f2d13c7586c47795fceb3880d1e7ce939a398ca684b6d12fe3ef"
+    },
+    {
+      "type": "external",
+      "name": "starccm-sim",
+      "repo": "svd-ai-lab/sim-plugin-starccm",
+      "commit": "3daad71dc23465b47f6a3b8e7b3f5ba07bd2ba30",
+      "path": "src/sim_plugin_starccm/_skills/starccm",
+      "skillMdSha256": "ad7ff0790af6195fd0b3da7822ba59a5f2b0745e4a2c93bdaca88d6d8f164bbc"
+    },
+    {
+      "type": "external",
+      "name": "hfss",
+      "repo": "svd-ai-lab/sim-plugin-hfss",
+      "commit": "46424bef9a2b68deae517be9c77dd268c8dcd245",
+      "path": "src/sim_plugin_hfss/_skills/hfss",
+      "skillMdSha256": "c37ea12f5ebae35471403a9574f0ceb43b3ec4f50b0ce2d0bf314d8f30b6c57c"
+    },
+    {
+      "type": "external",
+      "name": "hypermesh-sim",
+      "repo": "svd-ai-lab/sim-plugin-hypermesh",
+      "commit": "1092ad5566c27a7eadf982e84fb283a61b9ea423",
+      "path": "src/sim_plugin_hypermesh/_skills/hypermesh",
+      "skillMdSha256": "86a4883d9f5823ae9a65ef48161de47bacbf5ce25b8eacd80660e2fcffd36d9e"
+    },
+    {
+      "type": "external",
+      "name": "matlab-sim",
+      "repo": "svd-ai-lab/sim-plugin-matlab",
+      "commit": "8cad35496b2c53bc053c976a0be8ab73d20e1a8a",
+      "path": "src/sim_plugin_matlab/_skills/matlab",
+      "skillMdSha256": "14e1c03387b0b2f4c400e0af23f0579ee3167a01cdc3d1756906849fc43563f8"
+    },
+    {
+      "type": "external",
+      "name": "stata-sim",
+      "repo": "svd-ai-lab/sim-plugin-stata",
+      "commit": "368946d9296e6490e7c5674f2f190392af411154",
+      "path": "src/sim_plugin_stata/_skills/stata",
+      "skillMdSha256": "5b3469d2696715c65ccbf435b484776846bc9e5b598fa1b28a5e055b723c8e50"
+    },
+    {
+      "type": "external",
+      "name": "rhino",
+      "repo": "svd-ai-lab/sim-plugin-rhino",
+      "commit": "e84aa10e072c21979e74c9dd03829fc5cd7525cf",
+      "path": "skills/rhino",
+      "skillMdSha256": "77b54afbc1111480cc1097542ae807af6c6470e2f94935506a616d054c5d58d8"
     }
   ]
 }

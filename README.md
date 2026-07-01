@@ -38,6 +38,23 @@ v0 skills:
 - `geometry-preview`: lightweight geometry generation and QA before CAD or
   solver work.
 
+Solver skills, one per supported CAE/CAD tool, each routing agent workflows
+against the real solver (saved files, batch execution, or live sessions):
+
+- `comsol-sim` (COMSOL Multiphysics)
+- `abaqus-sim` (Abaqus)
+- `fluent-sim` (Ansys Fluent)
+- `workbench-sim` (Ansys Workbench)
+- `mechanical-sim` (Ansys Mechanical)
+- `flotherm-sim` (Siemens Simcenter Flotherm)
+- `starccm-sim` (Simcenter STAR-CCM+)
+- `hfss` (Ansys HFSS)
+- `hypermesh-sim` (Altair HyperMesh)
+- `matlab-sim` (MATLAB)
+- `stata-sim` (Stata)
+- `autodeskfusion` (Autodesk Fusion)
+- `rhino` (Rhino)
+
 External skills are locked by source repository, commit, path, and `SKILL.md`
 SHA256 in `skills.lock.json`. OpenScience-owned skills live under
 `skills-src/` and are copied into the generated `skills/` directory.
