@@ -282,6 +282,9 @@ export function ensureCachedRepo(repo: string, commit: string, offline: boolean)
     runGit(path.dirname(checkoutDir), ["clone", "--no-checkout", `https://github.com/${repo}.git`, checkoutDir])
   }
 
+  if (process.platform === "win32") {
+    runGit(checkoutDir, ["config", "core.longpaths", "true"])
+  }
   runGit(checkoutDir, ["fetch", "origin", commit, "--depth=1"])
   runGit(checkoutDir, ["checkout", "--force", commit])
   return checkoutDir
