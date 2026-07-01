@@ -28,6 +28,9 @@ The v0 Windows build is unsigned. Verify the SHA256 file before installing.
 OpenScience materializes the bundled skills at build time into
 `packages/desktop/resources/openscience-config/skills`.
 
+<img width="2560" height="1504" alt="skill_list_02" src="https://github.com/user-attachments/assets/99f12927-437d-4888-a3a3-bc66ee4902c1" />
+<img width="2560" height="1504" alt="demo_paper_search" src="https://github.com/user-attachments/assets/9ca99160-dd4d-4638-a4df-2978387716aa" />
+
 v0 skills:
 
 - `research-paper-data`: public scholarly metadata search, identifier
@@ -69,8 +72,8 @@ sources only:
 - Optional: `OPENALEX_API_KEY` for broader OpenAlex coverage and citation graph
   checks.
 
-It must not use Sci-Hub, paywall bypasses, private CORE keys, Huanjing/Sim
-Studio research APIs, or any OpenScience backend proxy.
+
+<img width="2560" height="1504" alt="skill_list_01" src="https://github.com/user-attachments/assets/a97366f2-343b-4669-a78d-c9173e3f6112" />
 
 ## Development
 
