@@ -14,6 +14,7 @@ import {
   skillsDir,
   validateSkillFile,
 } from "./openscience-skills"
+import { lintResearchBundle } from "./research-bundle-lint"
 
 const offline = /^(1|true|yes)$/i.test(process.env.OPENSCIENCE_SKILLS_OFFLINE ?? "")
 const { manifest, lock } = loadManifestAndLock()
@@ -60,4 +61,5 @@ for (const entry of manifest.skills) {
   rows.push({ kind: "skill", name: entry.name, source: resolved.source, files: countFiles(destDir) })
 }
 
+lintResearchBundle()
 console.table(rows)

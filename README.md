@@ -59,18 +59,19 @@ against the real solver (saved files, batch execution, or live sessions):
 - `rhino` (Rhino)
 
 External skills are locked by source repository, commit, path, and `SKILL.md`
-SHA256 in `skills.lock.json`. OpenScience-owned skills live under
-`skills-src/` and are copied into the generated `skills/` directory.
+SHA256 in `skills.lock.json`. Bundled capability manifests live in
+`packages/desktop/resources/openscience-config/`; generated `skills/` output
+should not be edited by hand.
 
 ## Paper Search
 
-The OpenScience `research-paper-data` skill uses public or user-configured
-sources only:
+The bundled `research-paper-data` skill uses discoverable public or
+user-configured sources:
 
-- Public defaults: Crossref, arXiv, Europe PMC, DataCite.
+- Public defaults: Crossref, arXiv, Europe PMC, DataCite, OpenAlex.
 - Optional: `UNPAYWALL_EMAIL` for Unpaywall legal OA discovery.
-- Optional: `OPENALEX_API_KEY` for broader OpenAlex coverage and citation graph
-  checks.
+- Optional: `OPENALEX_MAILTO`, `CROSSREF_MAILTO`, or
+  `RESEARCH_CONTACT_EMAIL` for polite pool access.
 
 
 <img width="2560" height="1504" alt="skill_list_01" src="https://github.com/user-attachments/assets/a97366f2-343b-4669-a78d-c9173e3f6112" />

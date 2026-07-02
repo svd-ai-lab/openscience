@@ -1,7 +1,7 @@
 {
   "name": "@svd/openscience-desktop",
   "private": true,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "OpenScience desktop app based on OpenCode",
   "type": "module",
   "license": "MIT",
@@ -12,6 +12,7 @@
   "scripts": {
     "typecheck": "tsgo -b",
     "materialize:skills": "bun ./scripts/materialize-openscience-skills.ts",
+    "lint:research-bundle": "bun ./scripts/lint-research-bundle.ts",
     "update:skills-lock": "bun ./scripts/update-openscience-skills-lock.ts",
     "predev": "bun ./scripts/predev.ts",
     "dev": "electron-vite dev",

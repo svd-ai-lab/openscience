@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "providers": [
+    {
+      "id": "crossref",
+      "kind": "public",
+      "capabilities": ["search", "resolve", "references"],
+      "requires": []
+    },
+    {
+      "id": "arxiv",
+      "kind": "public",
+      "capabilities": ["search", "resolve", "open-access"],
+      "requires": []
+    },
+    {
+      "id": "europe-pmc",
+      "kind": "public",
+      "capabilities": ["search", "resolve", "open-access"],
+      "requires": []
+    },
+    {
+      "id": "datacite",
+      "kind": "public",
+      "capabilities": ["search", "resolve"],
+      "requires": []
+    },
+    {
+      "id": "openalex",
+      "kind": "public",
+      "capabilities": ["search", "references"],
+      "requires": []
+    },
+    {
+      "id": "unpaywall",
+      "kind": "user-configured",
+      "capabilities": ["open-access"],
+      "requires": [{ "type": "env", "name": "UNPAYWALL_EMAIL" }]
+    }
+  ]
+}

@@ -2,8 +2,9 @@
 
 OpenScience is an open science workbench built on upstream OpenCode.
 
-Use OpenCode's native model/provider setup. Do not assume a bundled model, a
-shared API key, a Huanjing/Sim Studio login, or any private backend proxy.
+Use OpenCode's native model/provider setup. Do not assume a bundled model,
+shared API key, managed research provider, or private backend unless it is
+visible in the current runtime or a bundled capability manifest.
 
 ## Operating Principles
 
@@ -16,10 +17,9 @@ shared API key, a Huanjing/Sim Studio login, or any private backend proxy.
   current uncertainty.
 - Preserve provenance for papers, datasets, PDFs, figures, code, solver files,
   and generated artifacts.
-- When working with literature, use only legal access paths: publisher pages,
-  author pages, institutional repositories, PubMed Central, arXiv, preprint
-  servers, and other open repositories. Do not use Sci-Hub, credential sharing,
-  paywall bypass, private CORE keys, or OpenScience/Huanjing backend proxies.
+- When working with literature, use visible, provenance-traceable providers and
+  legal access paths. Do not use paywall bypass, credential sharing, scraped
+  account credentials, or undeclared hidden secrets.
 
 ## Built-In Science Workflows
 

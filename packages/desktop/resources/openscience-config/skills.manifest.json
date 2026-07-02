@@ -20,9 +20,11 @@
   ],
   "skills": [
     {
-      "type": "local",
+      "type": "external",
       "name": "research-paper-data",
-      "path": "skills-src/research-paper-data"
+      "repo": "svd-ai-lab/sim-skills",
+      "path": "research-paper-data",
+      "localCandidates": ["../sim-skills"]
     },
     {
       "type": "external",
