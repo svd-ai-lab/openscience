@@ -20,4 +20,16 @@
   `packages/desktop/resources/openscience-config/skills.lock.json`.
 - The first release target is Windows x64 NSIS via GitHub Releases. Builds are
   unsigned unless a future release explicitly adds signing.
+- CI/CD capacity is limited. Prefer local, scriptable checks before waiting on
+  GitHub Actions. For PRs, run the narrowest local checks that cover the change
+  and record the exact commands/results in the PR. Treat cloud CI as
+  asynchronous confirmation unless a protected check blocks merging.
+- Releases should be buildable and verifiable from the local machine: use local
+  scripts for materializing skills, typecheck, packaging, installer/hash
+  verification, and release staging. Use GitHub Actions only when testing the
+  workflow itself or when the repository release process explicitly requires it.
+- On Windows, the upstream OpenCode symlink files may be materialized as tiny
+  text files. Use the documented temporary local workaround for typecheck/build
+  hooks, restore those files immediately afterward, and mention the workaround
+  in validation evidence.
 - Prefer `rg` for search. Use `apply_patch` for manual edits.
