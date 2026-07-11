@@ -1,18 +1,19 @@
-# OpenScience
+# Open Engineer
 
-OpenScience is an open source science workbench based on
+Open Engineer is an open source engineering workbench based on
 [OpenCode](https://github.com/anomalyco/opencode).
 
-The first release targets Windows x64 and bundles science-oriented skills and
-workflows on top of upstream OpenCode. It does not include a private login
-system, a model proxy, a shared API key, or a bundled default model. Models are
-configured through OpenCode's native providers, including OpenCode Zen,
-Anthropic, OpenAI, OpenRouter, Gemini, Ollama, and other upstream providers.
+The first release targets Windows x64 and bundles engineering and
+science-oriented skills and workflows on top of upstream OpenCode. It does not
+include a private login system, a model proxy, a shared API key, or a bundled
+default model. Models are configured through OpenCode's native providers,
+including OpenCode Zen, Anthropic, OpenAI, OpenRouter, Gemini, Ollama, and other
+upstream providers.
 
 ## Windows Preview
 
 Download the latest Windows installer from
-[GitHub Releases](https://github.com/svd-ai-lab/openscience/releases).
+[GitHub Releases](https://github.com/svd-ai-lab/open-engineer/releases).
 
 Initial artifacts:
 
@@ -25,7 +26,7 @@ The v0 Windows build is unsigned. Verify the SHA256 file before installing.
 
 ## Bundled Science Skills
 
-OpenScience materializes the bundled skills at build time into
+Open Engineer materializes the bundled skills at build time into
 `packages/desktop/resources/openscience-config/skills`.
 
 <img width="2560" height="1504" alt="skill_list_02" src="https://github.com/user-attachments/assets/99f12927-437d-4888-a3a3-bc66ee4902c1" />
@@ -100,12 +101,12 @@ The desktop sidecar is started with only:
 OPENCODE_CONFIG_DIR=<bundled openscience-config>
 ```
 
-OpenScience intentionally does not set `OPENCODE_CONFIG`, does not override the
+Open Engineer intentionally does not set `OPENCODE_CONFIG`, does not override the
 default model/provider, and does not inject API keys.
 
 ## Versioning
 
-OpenScience has its own desktop release version, independent of upstream
+Open Engineer has its own desktop release version, independent of upstream
 OpenCode. The product version lives in `packages/desktop/package.json` and is
 the version used by Windows installers, update metadata, and GitHub release
 tags.
@@ -113,7 +114,7 @@ tags.
 The upstream OpenCode base and WSL OpenCode CLI target remain separate. They
 come from the workspace OpenCode package version in
 `packages/opencode/package.json`. Do not use the upstream OpenCode tag as the
-OpenScience desktop package version unless the product release intentionally
+Open Engineer desktop package version unless the product release intentionally
 chooses the same number.
 
 The Windows release workflow verifies that the manual release input matches the
@@ -121,5 +122,5 @@ desktop package version before building.
 
 ## Attribution
 
-OpenScience is based on upstream OpenCode v1.17.11 and keeps the upstream MIT
+Open Engineer is based on upstream OpenCode v1.17.11 and keeps the upstream MIT
 license. See [LICENSE](LICENSE).
